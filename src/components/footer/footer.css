@@ -1,0 +1,20 @@
+.footer{
+    box-shadow: rgb(75 82 85 / 12%) 0px 8px 28px 2px;
+    background-color: #42498B;
+    align-items: center;
+    padding: 50px 0;
+}
+.footer h1,p{
+    color: white;
+    padding: 0;
+    margin: 4px;
+
+}
+.adress{
+    font-size: 24px;
+    font-weight: 600;
+}
+.icons{
+    font-size: 20px;
+    margin: 0 4px;
+}

@@ -1,0 +1,76 @@
+[
+
+    {
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_pUHiACK0fV3fpXccLmI-h_QZ5bSigH0Ts5l63ouNBcjjKRCmSLv2-XPbe9KZCkkB3Fc&usqp=CAU",
+        "fee": "200",
+        "id":"1",
+        "name": "web-development",
+        "duration":"6-months",
+        "batch":"online"
+    },
+    {
+        "img":"https://quicklearn.pk/assets/img/courses/3.jpg",
+        "fee": "250",
+        "id":"2",
+        "name":"grapics design",
+        "duration":"6-months",
+        "batch":"online"
+    },
+    {
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj-DBy5YQvZl9bGuon93KVsdRueEnECQxxsQ&usqp=CAU",
+        "fee": "150",
+        "id":"3",
+        "name":"digital marketing",
+        "duration":"8-months",
+        "batch":"offline"
+    },
+    {
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg98o1wnE7hyeCQtWAcnoCB_Q3w3tzlYYurQ&usqp=CAU",
+        "fee": "230",
+        "id":"4",
+        "name":"networking",
+        "duration":"5-months",
+        "batch":"online"
+    },
+    {
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNQaMU9chGftFFzBDehApuShzNYf0ZQIDrbg&usqp=CAU",
+        "fee": "500",
+        "id":"5",
+        "name":"software development",
+        "duration":"1-year",
+        "batch":"offline"
+    },
+
+    {
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5EhjzzWjBdZGLxVbhiGOKfHzMpjl0bf64OQ&usqp=CAU",
+        "fee": "300",
+        "id":"6",
+        "name":"logo design",
+        "duration":"6-months",
+        "batch":"online"
+    },
+    {
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvZguap4VpVYutNYJdTvtcwyVJpYXS_xnQrQ&usqp=CAU",
+        "fee": "350",
+        "id":"7",
+        "name":"data science",
+        "duration":"10-months",
+        "batch":"offline"
+    },
+    {
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcs7HNUmoMvPKJVlvHBCdgErVYGj0LEHm9Gg&usqp=CAU",
+        "fee": "400",
+        "id":"8",
+        "name":"machine learning",
+        "duration":"10-months",
+        "batch":"offline"
+    },
+    {
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8F47CVbLfKxkOg7ixoAU5YLbsrd9g-dTK9A&usqp=CAU",
+        "fee": "100",
+        "id":"9",
+        "name":"basic computer",
+        "duration":"4-months",
+        "batch":"online"
+    }
+]

@@ -1,0 +1,24 @@
+.notfound{
+    background-color: #373D40;
+    height: 100vh;
+    border: 40px solid #EC476A;
+}
+
+.error-title{
+    color: white;
+    font-size: 100px;
+    line-height: 90px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 200px;
+}
+.error-details{
+    font-size: 20px;
+  
+}
+.notfound a {
+
+    text-decoration: none;
+font-size: 22px;
+color: rgba(236, 71, 106, 0.6);
+}
