@@ -6,8 +6,11 @@ import './home.css'
 import Footer from '../footer/Footer';
 import Service from '../service/Service';
 import { Link } from 'react-router-dom';
+import Homes from '../Homes/Homes';
 const Home = () => {
     const [courses,setcourses] = useState([])
+    const courseSliced = courses.slice(0,4)
+    console.log(courseSliced);
 
     useEffect(()=>{
 
@@ -76,78 +79,9 @@ const Home = () => {
                     <h1 className ="text-center text-success">some services</h1>
                      <div className ="row">
                          
-                         
-                        <div className="col-md-3">
-                            <div className="cart">
-                            <div className="cart-details">
-                  <img className="card-img w-100" src={courses[0]?.img} alt="" />
-                </div>
-                <div className="text-area text-center ">
-                    <h5>{courses[0]?.name}</h5>
-                    <p className ="p-0">course fee: ${courses[0]?.fee}</p>
-                    <p>vacancy:{courses[0]?.duration}</p>
-                    <p>batch: {courses[0]?.batch}</p>
-                    <Link to ="/Services">
-             <button  className="mb-2"> <i className="fas fa-cart-plus"></i> view all services</button>
-             </Link>
-
-                </div>
-                            </div>
-                        </div>
-                         
-                        <div className="col-md-3">
-                            <div className="cart">
-                            <div className="cart-details">
-                  <img className="card-img w-100" src={courses[1]?.img} alt="" />
-                </div>
-                <div className="text-area text-center ">
-                    <h5>{courses[1]?.name}</h5>
-                    <p className ="p-0">course fee: ${courses[0]?.fee}</p>
-                    <p>vacancy:{courses[1]?.duration}</p>
-                    <p>batch: {courses[1]?.batch}</p>
-                    <Link to ="/Services">
-             <button  className="mb-2"> <i className="fas fa-cart-plus"></i> view all services</button>
-             </Link>
-
-                </div>
-                            </div>
-                        </div>
-                         
-                        <div className="col-md-3">
-                            <div className="cart">
-                            <div className="cart-details">
-                  <img className="card-img w-100" src={courses[2]?.img} alt="" />
-                </div>
-                <div className="text-area text-center ">
-                    <h5>{courses[2]?.name}</h5>
-                    <p className ="p-0">course fee: ${courses[0]?.fee}</p>
-                    <p>vacancy:{courses[2]?.duration}</p>
-                    <p>batch: {courses[2]?.batch}</p>
-                    <Link to ="/Services">
-             <button  className="mb-2"> <i className="fas fa-cart-plus"></i> view all services</button>
-             </Link>
-
-                </div>
-                            </div>
-                        </div>
-                         
-                        <div className="col-md-3">
-                            <div className="cart">
-                            <div className="cart-details">
-                  <img className="card-img w-100" src={courses[3]?.img} alt="" />
-                </div>
-                <div className="text-area text-center ">
-                    <h5>{courses[3]?.name}</h5>
-                    <p className ="p-0">course fee: ${courses[3]?.fee}</p>
-                    <p>vacancy:{courses[3]?.duration}</p>
-                    <p>batch: {courses[3]?.batch}</p>
-                    <Link to ="/Services">
-             <button className="mb-2"> <i className="fas fa-cart-plus"></i> view all services</button>
-             </Link>
-
-                </div>
-                            </div>
-                        </div>
+                {
+                  courseSliced.map(course => <Homes key ={course.id} course ={course}></Homes>)
+                }
 
                          
 
