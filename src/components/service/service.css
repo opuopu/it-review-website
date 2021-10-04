@@ -65,10 +65,15 @@ button{
     background-color: none;
     color: #FE6887;
     border-radius: 20px;
-    border: 1px solid #FE6887;;
+    border: 1px solid #FE6887;
+  transition: .4s;
     /* color: black; */
     
 padding: 8px 16px;
 font-weight: 600;
 margin-top: 5px;
+}
+.enroll-btn:hover{
+    background-color: #FE6887;
+    color: white;
 }

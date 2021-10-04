@@ -2,6 +2,7 @@
     background-color: #373D40;
     min-height: 100vh;
     border: 40px solid #EC476A;
+    border-bottom: 0;
 }
 
 .error-title{
@@ -10,7 +11,8 @@
     line-height: 90px;
     font-weight: 700;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 130px;
+    margin-bottom: 20px;
 }
 .error-details{
     font-size: 20px;
@@ -22,3 +24,5 @@
 font-size: 22px;
 color: rgba(236, 71, 106, 0.6);
 }
+/* footer */
+

@@ -7,18 +7,14 @@ import Footer from '../footer/Footer';
 import Service from '../service/Service';
 import { Link } from 'react-router-dom';
 import Homes from '../Homes/Homes';
+import AllCourses from '../../hooks/Apis';
 const Home = () => {
-    const [courses,setcourses] = useState([])
+//  calling function
+    const[courses]= AllCourses()
     const courseSliced = courses.slice(0,4)
-    console.log(courseSliced);
 
-    useEffect(()=>{
 
-        fetch('/courses.JSON')
-        .then(res =>res.json())
-        .then(data => setcourses(data))
-
-    },[])
+  
     return (
         <div>
           
@@ -51,7 +47,7 @@ const Home = () => {
                     <h1 className ="text-center">simple <span className="text-success">overview</span></h1>
                     <div className ="d-flex align-items-center justify-content-around mt-5">
                     <Card border="" className ="bl-1" style={{ width: '20rem' }}>
-   <h2><i className="fas fa-user-friends"></i> 4000+ students</h2>
+   <h2 className="pt-2"><i className="fas fa-user-friends"></i> 4000+ students</h2>
     <Card.Body>
       
       <Card.Text>
@@ -59,8 +55,17 @@ const Home = () => {
       </Card.Text>
     </Card.Body>
   </Card>
+                    <Card className ="bl-2 bg-success" style={{ width: '20rem' }}>
+   <h2 className="pt-2"><i className="fas fa-user-graduate"></i> 5000+ Graduates</h2>
+    <Card.Body>
+      
+      <Card.Text>
+     Opus it instiute has trained 8559+ trainees so far. And it's increasing everyday.
+      </Card.Text>
+    </Card.Body>
+  </Card>
                     <Card className ="bl-2" style={{ width: '20rem' }}>
-   <h2><i className="fas fa-money-check-alt"></i> 12000$+ earned</h2>
+   <h2 className="pt-2"><i className="fas fa-money-check-alt"></i> 12000$+ earned</h2>
     <Card.Body>
       
       <Card.Text>

@@ -6,17 +6,13 @@ import Header from '../Header/Header';
 import './service.css'
 import banner from '../../img/tab-1.png'
 import Services from '../services/Services';
+import AllCourses from '../../hooks/Apis';
+
 
 const Service = () => {
-    const [courses,setcourses] = useState([])
+//    calling function
+    const [courses] = AllCourses()
 
-    useEffect(()=>{
-
-        fetch('/courses.JSON')
-        .then(res =>res.json())
-        .then(data => setcourses(data))
-
-    },[])
     
     return (
         <div>

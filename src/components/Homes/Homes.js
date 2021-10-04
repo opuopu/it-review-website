@@ -17,7 +17,7 @@ const Homes = (props) => {
                     <p>vacancy:{duration}</p>
                     <p>batch: {batch}</p>
                     <Link to ="/Services">
-             <button className="mb-2"> <i className="fas fa-cart-plus"></i> view all services</button>
+             <button className="mb-2 enroll-btn"> <i className="fas fa-cart-plus"></i> view all services</button>
              </Link>
 
                 </div>

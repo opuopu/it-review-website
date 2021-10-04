@@ -16,7 +16,7 @@ const Services = (props) => {
               <p className ="details">duration: <span>{duration}</span></p>
               <p className ="details">batch: <span>{batch}</span></p>
              <Link to ="/Notfound">
-             <button> <i className="fas fa-cart-plus"></i> enroll now</button>
+             <button className="enroll-btn"> <i className="fas fa-cart-plus"></i> enroll now</button>
              </Link>
            </div>
                </div>

@@ -1,11 +1,17 @@
-import React from 'react';
+const { useEffect } = require("react")
+const { useState } = require("react")
 
-const Apis = () => {
-    return (
-        <div>
-            
-        </div>
-    );
-};
+const AllCourses = () =>{
+    const[courses,setcourses] = useState([]);
 
-export default Apis;
+
+    useEffect(()=>{
+        fetch('/courses.JSON')
+        .then(res => res.json())
+        .then(data => setcourses(data))
+    },[])
+
+    return[courses,setcourses]
+}
+export default AllCourses
+
