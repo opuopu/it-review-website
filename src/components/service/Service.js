@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import Footer from '../footer/Footer';
 import Header from '../Header/Header';
 import './service.css'
+import banner from '../../img/tab-1.png'
 
 const Service = () => {
     const [courses,setcourses] = useState([])
@@ -19,12 +20,14 @@ const Service = () => {
     return (
         <div>
             <Header></Header>
+
+            
            
            <Container className="mt-5 service-container">
            <h1 className="text-center service-title">Our all <span className ="text-success"> services</span> </h1>
                <div className="row">
           {
-              courses.map(course =>(
+              courses?.map(course =>(
 
 
                 <div className ="col-md-3 ">
@@ -48,6 +51,13 @@ const Service = () => {
           }
             </div>
            </Container>
+           <div className ="service-header">
+                <h1>How To Change Your Life?</h1>
+                <p> provides 100% project oriented training. It means you will do real time client's projects as your assignments. <br/> Mentors will make you involved in dealing with the real client's experience.
+
+</p>
+     <img src={banner} alt="" />
+            </div>
          
            <Footer></Footer>
 

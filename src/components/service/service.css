@@ -5,6 +5,27 @@
 
     
 }
+/* header */
+
+.service-header{
+    margin-top: 80px;
+    text-align: center;
+}
+.service-header h1{
+    font-size: 40px;
+    color: #07324f;
+    line-height: 46px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.service-header p{
+    color: #526375;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
 h5{
     color: rgb(68, 143, 187);
     font-weight: 700;
@@ -19,7 +40,7 @@ h5{
 }
 
 .service-container .service-title{
-    margin-top: 85px;
+    margin-top: 70px;
 }
 
 .parent{
