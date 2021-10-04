@@ -1,0 +1,28 @@
+.about-container{
+
+    margin-top: 85px;
+}
+
+
+.about-container p{
+margin-top: 5px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: rgb(66, 72, 76);
+}
+
+.about-container p span{
+
+    font-weight: 700;
+    color: black;
+}
+.about-container h1{
+   
+        font-size: 28px;
+        line-height: 36px;
+        font-weight: 700;
+        padding: 20px 0 30px;
+        color: #1e266d;
+}

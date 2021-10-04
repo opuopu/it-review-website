@@ -1,7 +1,7 @@
 .image{
     height: 200px;
     width: 200px;
-   margin-top: 10px;
+
 
     
 }
@@ -17,6 +17,11 @@ h5{
    
     
 }
+
+.service-container .service-title{
+    margin-top: 85px;
+}
+
 .parent{
     width: 100%;
 }

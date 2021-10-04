@@ -19,8 +19,9 @@ const Service = () => {
     return (
         <div>
             <Header></Header>
-            <h1 className="text-center mt-5">Our all <span className ="text-success"> services</span> </h1>
-           <Container>
+           
+           <Container className="mt-5 service-container">
+           <h1 className="text-center service-title">Our all <span className ="text-success"> services</span> </h1>
                <div className="row">
           {
               courses.map(course =>(
@@ -32,7 +33,7 @@ const Service = () => {
              <img src={course.img} className="card-img-top image mx-auto w-100" alt="..."/>
              <div className="card-body text-center">
                <h5 className="card-title">{course.name}</h5>
-               <p className ="details">fee: <span>{course.fee}</span></p>
+               <p className ="details">fee: <span>${course.fee}</span></p>
               <p className ="details">duration: <span>{course.duration}</span></p>
               <p className ="details">batch: <span>{course.batch}</span></p>
              <Link to ="/Notfound">

@@ -64,5 +64,13 @@
         "name":"machine learning",
         "duration":"10-months",
         "batch":"offline"
+    },
+    {
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8F47CVbLfKxkOg7ixoAU5YLbsrd9g-dTK9A&usqp=CAU",
+        "fee": "100",
+        "id":"9",
+        "name":"basic computer",
+        "duration":"4-months",
+        "batch":"online"
     }
 ]

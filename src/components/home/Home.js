@@ -20,7 +20,7 @@ const Home = () => {
         <div>
           
           <Header></Header>
-            <div>
+            <div className="home-container">
                 <Container>
                <div className ="d-flex align-items-center justify-content-between">
                <div>
@@ -44,7 +44,7 @@ const Home = () => {
                 {/* card part */}
 
                 <Container>
-                    <h1 className ="text-center">simple overview</h1>
+                    <h1 className ="text-center">simple <span className="text-success">overview</span></h1>
                     <div className ="d-flex align-items-center justify-content-around mt-5">
                     <Card border="" className ="bl-1" style={{ width: '20rem' }}>
    <h2><i className="fas fa-user-friends"></i> 4000+ students</h2>
@@ -72,7 +72,7 @@ const Home = () => {
             {/* courses data */}
             <div>
                 <Container>
-                    <h1 className ="text-center">services</h1>
+                    <h1 className ="text-center text-success">services</h1>
                      <div className ="row">
                          
                          

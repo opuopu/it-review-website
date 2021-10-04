@@ -6,6 +6,8 @@ import Header from './components/Header/Header';
 import Footer from './components/footer/Footer';
 import Service from './components/service/Service';
 import Notfound from './components/notfound/Notfound';
+import About from './components/about/About';
+import Features from './components/features/Features';
 
 function App() {
   return (
@@ -22,6 +24,14 @@ function App() {
 <Service></Service>
        </Route>
        
+       <Route path="/about">
+
+         <About></About>
+       </Route>
+       <Route path ="/features">
+
+         <Features></Features>
+       </Route>
 
        <Route path="*">
          <Notfound></Notfound>
