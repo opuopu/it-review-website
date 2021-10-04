@@ -61,9 +61,13 @@ h5{
 }
 /* button */
 button{
-    background-color: #FE6887;
-    border: #FE6887;
-    color: white;
+    /* background-color: #FE6887; */
+    background-color: none;
+    color: #FE6887;
+    border-radius: 20px;
+    border: 1px solid #FE6887;;
+    /* color: black; */
+    
 padding: 8px 16px;
 font-weight: 600;
 margin-top: 5px;
