@@ -27,7 +27,7 @@ we want to tech you something for your better future. if you are interested plea
 </div>
 
 <Link to ="/enroll">
-<button>Register now</button>
+<button className="register-btn">Register now</button>
 
 </Link>
     </div >
