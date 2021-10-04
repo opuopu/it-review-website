@@ -8,6 +8,7 @@ const About = () => {
     return (
         <div>
             <Header></Header>
+            {/* about details */}
             <Container className="about-container">
          <h1>About Us</h1>
          <p> <span>Opus it institue</span> was founded by like-minded, young and motivated individuals with a vision to take freelancing and remote employment as a career path to 160 million Bangladeshis and to create the employment of 1M Bangladeshis within 2022. We aim to create professionals for the national and international marketplaces by providing world-class smart IT education in Bangladesh. At opus it, we want to establish a sustainable self-dependency through the online employment model all over the 64 districts of Bangladesh. From the inauguration on 17th May 2019 till today, opus it institue has trained 7630+ trainees so far, and it's increasing every day. Our students have reached a combined earning of <span> $1 million (USD)</span>so far. Over <span>320K+ people are connected with us</span>through social media and supporting our mission.</p>

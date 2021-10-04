@@ -20,6 +20,7 @@ const Home = () => {
         <div>
           
           <Header></Header>
+          {/* home header part */}
             <div className="home-container">
                 <Container>
                <div className ="d-flex align-items-center justify-content-between">
@@ -71,8 +72,8 @@ const Home = () => {
 
             {/* courses data */}
             <div>
-                <Container>
-                    <h1 className ="text-center text-success">services</h1>
+                <Container className="mt-5">
+                    <h1 className ="text-center text-success">some services</h1>
                      <div className ="row">
                          
                          
@@ -156,6 +157,7 @@ const Home = () => {
                 </Container>
               
             </div>
+            {/* footer */}
           <Footer></Footer>
         </div>
     );
