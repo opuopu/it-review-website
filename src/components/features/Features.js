@@ -13,8 +13,8 @@ import Review from '../review/Review';
 
 const Features = () => {
     return (
-        <div>
-            <Header></Header>
+        <div className="mb-5">
+          
             <div className="banner">
             <Container className="">
 {/* container header */}
@@ -98,7 +98,7 @@ we want to tech you something for your better future. if you are interested plea
 
      </div>
  </Container>
-            <Footer></Footer>
+          
             
         </div>
     );

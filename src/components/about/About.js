@@ -7,7 +7,7 @@ import './about.css'
 const About = () => {
     return (
         <div>
-            <Header></Header>
+       
             {/* about details */}
             <Container className="about-container">
          <h1>About Us</h1>
@@ -27,7 +27,7 @@ const About = () => {
          <h1>our master class mentor</h1>
          <p>With combined experience of over 20 years in the industry, we at #ShikhbeShobai help students, leaders, IT and design pros, project managers—anyone in any role—develop web development, creative, and business skills. The mentors at #ShikhbeShobai is well trained. Our senior trainers have a vast experience of teaching as well as hand on experience. We expect our trainers to resolve student’s queries on the spot and help them become professionals.</p>
             </Container>
-            <Footer></Footer>
+          
         </div>
     );
 };

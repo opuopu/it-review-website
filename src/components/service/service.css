@@ -50,10 +50,11 @@ h5{
 .details{
     margin-bottom: 5px;
     display: flex;
-    color: black;
-    font-weight: 600;
+    color: rgba(0, 0, 0, 0.726);
+    font-weight: 700;
     font-size: 17px;
-    justify-content: space-around;
+    justify-content: space-between;
+    
 }
 .income{
     font-weight: 700;

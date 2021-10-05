@@ -1,6 +1,7 @@
 .notfound{
     background-color: #373D40;
-    min-height: 100vh;
+    min-height: 85vh;
+    /* padding: 100%; */
     border: 40px solid #EC476A;
     border-bottom: 0;
 }

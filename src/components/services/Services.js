@@ -12,12 +12,14 @@ const Services = (props) => {
              <img src={img} className="card-img-top image mx-auto w-100" alt="..."/>
              <div className="card-body text-center">
                <h5 className="card-title">{name}</h5>
-               <p className ="details">fee: <span>${fee}</span></p>
               <p className ="details">duration: <span>{duration}</span></p>
               <p className ="details">batch: <span>{batch}</span></p>
-             <Link to ="/Notfound">
+            <div className="d-flex justify-content-between align-items-center mt-2">
+            <p className ="details">${fee}</p>
+            <Link to ="/Notfound">
              <button className="enroll-btn"> <i className="fas fa-cart-plus"></i> enroll now</button>
              </Link>
+            </div>
            </div>
                </div>
                </div>

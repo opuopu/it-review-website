@@ -14,6 +14,7 @@ function App() {
   return (
     <div >
      <BrowserRouter>
+     <Header></Header>
      <Switch>
      <Route exact path="/">
            <Home></Home>
@@ -40,6 +41,7 @@ function App() {
 
        </Route>
      </Switch>
+     <Footer></Footer>
      
      </BrowserRouter>
   

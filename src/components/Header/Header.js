@@ -7,7 +7,7 @@ const Header = () => {
         <div>
             <Navbar className =""  fixed="top" bg="dark" variant="dark">
     <Container>
-    <Navbar.Brand >Opus it institue</Navbar.Brand>
+    <Navbar.Brand>Opus it institue</Navbar.Brand>
     <Nav className="ms-auto">
 
         <NavLink className="nav-link"  to ="/home"> <i className="fas fa-house-user"></i> home</NavLink>

@@ -16,9 +16,9 @@ const Home = () => {
 
   
     return (
-        <div>
+        <div className ="mb-5">
           
-          <Header></Header>
+          {/* <Header></Header> */}
           {/* home header part */}
             <div className="home-container">
                 <Container>
@@ -96,8 +96,7 @@ const Home = () => {
                 </Container>
               
             </div>
-            {/* footer */}
-          <Footer></Footer>
+         
         </div>
     );
 };

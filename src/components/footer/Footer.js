@@ -6,7 +6,7 @@ import sslcommerce from '../../img/ssl-commerce.1d268dce.png'
 const Footer = () => {
     return (
         <div className="footer">
-            <Container className = " d-flex pt-5  justify-content-around mt-5">
+            <Container className = " d-flex pt-5  justify-content-around ">
                 <div>
                     <h1 className ="adress">Head Office - Banani Branch</h1>
                     <p>House# 74 Road# 7,</p>
@@ -34,7 +34,7 @@ const Footer = () => {
                
 
             </Container>
-            <p className="text-center pb-3 mt-5">2020 Copyright © Shikhbe Shobai Solutions, All rights Reserved.</p>
+            <p className="text-center pb-3 mt-5">2020 Copyright © opus it institute, All rights Reserved.</p>
         </div>
     );
 };

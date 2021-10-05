@@ -16,7 +16,7 @@ const Service = () => {
     
     return (
         <div>
-            <Header></Header>
+            {/* <Header></Header> */}
 
             
            
@@ -36,7 +36,7 @@ const Service = () => {
      <img src={banner} alt="" />
             </div>
          
-           <Footer></Footer>
+           {/* <Footer></Footer> */}
 
         </div>
     );

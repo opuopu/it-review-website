@@ -14,11 +14,14 @@ const Homes = (props) => {
                 <div className="text-area text-center ">
                     <h5>{name}</h5>
                     <p className ="p-0">course fee: ${fee}</p>
-                    <p>vacancy:{duration}</p>
+                    <p>vacancy: {duration}</p>
                     <p>batch: {batch}</p>
                     <Link to ="/Services">
              <button className="mb-2 enroll-btn"> <i className="fas fa-cart-plus"></i> view all services</button>
              </Link>
+             <div>
+                 
+             </div>
 
                 </div>
                             </div>

@@ -7,7 +7,7 @@ import './notfound.css'
 const Notfound = () => {
     return (
        <div>
-           <Header></Header>
+           {/* <Header></Header> */}
             <div className ="notfound text-center">
          <div className ="">
          <h1 className ="error-title ">Error 404 <br/> Not Found!</h1>
@@ -23,7 +23,7 @@ Click on the links below to do something, Thanks!</p>
 </NavLink>
 
          </div>
-         <Footer></Footer>
+         {/* <Footer></Footer> */}
         </div>
     
        </div>
